@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="isLoginRequired" value="false"/>
+  <listeners>
+    <listener class-name="com.norwegian.utils.Listeners"/>
+  </listeners>
+  <test name="Norwegian&#039;s Happy Path(failed)">
+    <classes>
+      <class name="com.norwegian.test.explore.PortsTest">
+        <methods>
+          <include name="afterSuitePerformed"/>
+          <include name="testDisplayingDeparturePort" invocation-numbers="0 1"/>
+          <include name="setUpLogin"/>
+          <include name="afterMethodSetUp"/>
+          <include name="setUp"/>
+          <include name="baseSetUp"/>
+        </methods>
+      </class> <!-- com.norwegian.test.explore.PortsTest -->
+    </classes>
+  </test> <!-- Norwegian's Happy Path(failed) -->
+</suite> <!-- Failed suite [Suite] -->
