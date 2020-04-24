@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 70.921 s <<< FAILURE! - in TestSuite
+testDisplayingDeparturePort(tests.explore.PortsTest)  Time elapsed: 12.803 s  <<< FAILURE!
+java.lang.AssertionError: Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]
+	at tests.explore.PortsTest.testDisplayingDeparturePort(PortsTest.java:42)
+
+testDisplayingDeparturePort(tests.explore.PortsTest)  Time elapsed: 12.931 s  <<< FAILURE!
+java.lang.AssertionError: Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]
+	at tests.explore.PortsTest.testDisplayingDeparturePort(PortsTest.java:42)
+

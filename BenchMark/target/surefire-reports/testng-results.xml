@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-24T19:14:14Z" name="Suite" finished-at="2020-04-24T19:15:10Z" duration-ms="55809">
+    <groups>
+    </groups>
+    <test started-at="2020-04-24T19:14:14Z" name="Exploring Ports" finished-at="2020-04-24T19:15:10Z" duration-ms="55809">
+      <class name="tests.explore.PortsTest">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:01Z" name="baseSetUp" finished-at="2020-04-24T22:14:14Z" duration-ms="13361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method is-config="true" signature="beforeClassBaseSetUp()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:14Z" name="beforeClassBaseSetUp" finished-at="2020-04-24T22:14:14Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassBaseSetUp -->
+        <test-method is-config="true" signature="setUpLogin(boolean)[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:14Z" name="setUpLogin" finished-at="2020-04-24T22:14:35Z" duration-ms="20577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:35Z" name="setUp" finished-at="2020-04-24T22:14:43Z" duration-ms="8076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDisplayingDeparturePort(java.lang.String, java.lang.String)[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:44Z" name="testDisplayingDeparturePort" description="Verify that port of destination is displayed in the middle of the map AND verify the label of the Port of Destination" data-provider="ports-name" finished-at="2020-04-24T22:14:56Z" duration-ms="12329" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honolulu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Port Of Departure]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at tests.explore.PortsTest.testDisplayingDeparturePort(PortsTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayingDeparturePort -->
+        <test-method is-config="true" signature="afterMethodSetUp()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:56Z" name="afterMethodSetUp" finished-at="2020-04-24T22:14:57Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodSetUp -->
+        <test-method signature="testDisplayingDeparturePort(java.lang.String, java.lang.String)[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:14:57Z" name="testDisplayingDeparturePort" description="Verify that port of destination is displayed in the middle of the map AND verify the label of the Port of Destination" data-provider="ports-name" finished-at="2020-04-24T22:15:09Z" duration-ms="12514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miami]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Port Of Departure]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Labels did not match expected [Port Of Departure] but found [PORT OF DEPARTURE]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at tests.explore.PortsTest.testDisplayingDeparturePort(PortsTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayingDeparturePort -->
+        <test-method is-config="true" signature="afterMethodSetUp()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:15:10Z" name="afterMethodSetUp" finished-at="2020-04-24T22:15:10Z" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodSetUp -->
+        <test-method is-config="true" signature="afterSuitePerformed()[pri:0, instance:tests.explore.PortsTest@42a48628]" started-at="2020-04-24T22:15:10Z" name="afterSuitePerformed" finished-at="2020-04-24T22:15:11Z" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuitePerformed -->
+      </class> <!-- tests.explore.PortsTest -->
+    </test> <!-- Exploring Ports -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="utils.Listeners"/>
+        <!-- <listener class-name="utility.ExtentReporterNG" />-->
+    </listeners>
+
+    <parameter name="isLoginRequired" value="false"/>
+    <test name="Exploring Ports">
+        <classes>
+            <class name="tests.explore.PortsTest"/>
+        </classes>
+    </test>
+</suite>

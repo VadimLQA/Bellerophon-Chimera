@@ -1,0 +1,12 @@
+2020-04-24 22:11:19 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
+2020-04-24 22:11:20 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
+2020-04-24 22:11:21 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-24 22:11:32 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
+2020-04-24 22:11:34 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
+2020-04-24 22:11:34 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-24 22:14:54 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
+2020-04-24 22:14:56 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
+2020-04-24 22:14:56 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-24 22:15:08 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
+2020-04-24 22:15:09 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
+2020-04-24 22:15:10 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
