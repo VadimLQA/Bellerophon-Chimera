@@ -1,12 +1,40 @@
-2020-04-24 22:11:19 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
-2020-04-24 22:11:20 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
-2020-04-24 22:11:21 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
-2020-04-24 22:11:32 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
-2020-04-24 22:11:34 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
-2020-04-24 22:11:34 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
-2020-04-24 22:14:54 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
-2020-04-24 22:14:56 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
-2020-04-24 22:14:56 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
-2020-04-24 22:15:08 INFO  NORWEGIAN-->  :39 - *** verify that image is in the middle of the map ***
-2020-04-24 22:15:09 INFO  NORWEGIAN-->  :41 - *** verify label of port departure ***
-2020-04-24 22:15:10 ERROR NORWEGIAN-->  :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:16:49 INFO  PortsTest :: :39 - *** verify that image is in the middle of the map ***
+2020-04-25 00:16:49 FATAL PortsImpl :: :29 - Port's position is being verified
+2020-04-25 00:16:50 INFO  PortsTest :: :41 - *** verify label of port departure ***
+2020-04-25 00:16:50 ERROR PortsTest :: :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:17:02 INFO  PortsTest :: :39 - *** verify that image is in the middle of the map ***
+2020-04-25 00:17:02 FATAL PortsImpl :: :29 - Port's position is being verified
+2020-04-25 00:17:03 INFO  PortsTest :: :41 - *** verify label of port departure ***
+2020-04-25 00:17:03 ERROR PortsTest :: :35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:21:31 INFO  PortsTest :: 39 - *** verify that image is in the middle of the map ***
+2020-04-25 00:21:31 FATAL PortsImpl :: 29 - Port's position is being verified
+2020-04-25 00:21:33 INFO  PortsTest :: 41 - *** verify label of port departure ***
+2020-04-25 00:21:33 ERROR PortsTest :: 35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:21:45 INFO  PortsTest :: 39 - *** verify that image is in the middle of the map ***
+2020-04-25 00:21:45 FATAL PortsImpl :: 29 - Port's position is being verified
+2020-04-25 00:21:47 INFO  PortsTest :: 41 - *** verify label of port departure ***
+2020-04-25 00:21:47 ERROR PortsTest :: 35 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:25:26 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+ ?2020-04-25 00:25:26 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+ ?2020-04-25 00:25:28 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+ ?2020-04-25 00:25:28 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+ ?2020-04-25 00:25:40 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+ ?2020-04-25 00:25:40 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+ ?2020-04-25 00:25:42 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+ ?2020-04-25 00:25:42 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+ ?2020-04-25 00:28:08 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-25 00:28:08 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+2020-04-25 00:28:10 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-25 00:28:10 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:28:21 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-25 00:28:21 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+2020-04-25 00:28:23 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-25 00:28:23 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:31:28 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-25 00:31:28 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+2020-04-25 00:31:29 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-25 00:31:30 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-25 00:31:42 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-25 00:31:42 [FATAL] PortsImpl :: 29 -> Port's position is being verified
+2020-04-25 00:31:43 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-25 00:31:44 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort

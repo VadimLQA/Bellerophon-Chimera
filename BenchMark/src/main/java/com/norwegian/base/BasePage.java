@@ -19,7 +19,7 @@ public class BasePage {
     protected WebDriver driver;
     private WebDriverWait wait;
     protected Actions actions;
-    protected Logger log;
+    protected static Logger log;
     protected static final String localPropertiesPath = System.getProperty("user.dir") + "\\credentials.properties";
 
 
@@ -27,7 +27,8 @@ public class BasePage {
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 15);
         actions = new Actions(this.driver);
-        log = Logger.getLogger(this.getClass().getName());
+        log = Logger.getLogger(this.getClass().getName() + " logs ");
+        log = Logger.getLogger(this.getClass().getName() + " logs ");
     }
 
     public String getDriverInstanceName() {

@@ -26,6 +26,7 @@ public class PortsImpl extends CommonImpl {
     }
 
     public boolean isPortImageInTheMiddleOfTheMap() {
+        log.info("Port's position is being verified");
         WebElement map = getElementByLocator(MAP);
         WebElement portImage = getElementByLocatorWithPresence(IMAGE_OF_PORT);
         boolean isPortInTheMiddle = isChildInTheMiddleOfTheParentElement(map, portImage);

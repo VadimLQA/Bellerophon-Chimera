@@ -50,8 +50,8 @@ public class BaseTest {
 
     @BeforeClass
     public void beforeClassBaseSetUp() {
-        logger = Logger.getLogger("NORWEGIAN-->  ");
         PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/main/resources/Log4j.properties");
+        logger = Logger.getLogger(this.getClass().getName());
         logger.setLevel(Level.DEBUG);
     }
 
