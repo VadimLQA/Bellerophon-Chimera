@@ -1,0 +1,13 @@
+
+2020-02-06 17:59:14 INFO  RestAssuredAPITesting  :40 - *** verify that image is in the middle of the map ***
+2020-02-06 17:59:15 INFO  RestAssuredAPITesting  :42 - *** verify label of port departure ***
+2020-02-06 17:59:16 ERROR RestAssuredAPITesting  :36 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-02-06 17:59:27 INFO  RestAssuredAPITesting  :40 - *** verify that image is in the middle of the map ***
+2020-02-06 17:59:28 INFO  RestAssuredAPITesting  :42 - *** verify label of port departure ***
+2020-02-06 17:59:29 ERROR RestAssuredAPITesting  :36 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-02-06 18:07:20 INFO  RestAssuredAPITesting  :40 - *** verify that image is in the middle of the map ***
+2020-02-06 18:07:21 INFO  RestAssuredAPITesting  :42 - *** verify label of port departure ***
+2020-02-06 18:07:21 ERROR RestAssuredAPITesting  :36 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-02-06 18:07:32 INFO  RestAssuredAPITesting  :40 - *** verify that image is in the middle of the map ***
+2020-02-06 18:07:33 INFO  RestAssuredAPITesting  :42 - *** verify label of port departure ***
+2020-02-06 18:07:34 ERROR RestAssuredAPITesting  :36 - Assertion Failed: explore.PortsTest.testDisplayingDeparturePort

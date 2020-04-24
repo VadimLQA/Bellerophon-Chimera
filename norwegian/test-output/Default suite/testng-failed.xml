@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.norwegian.basetestplatform.BaseTest">
+        <methods>
+          <include name="test1"/>
+          <include name="baseSetUp"/>
+        </methods>
+      </class> <!-- com.test.norwegian.basetestplatform.BaseTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
