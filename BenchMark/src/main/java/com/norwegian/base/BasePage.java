@@ -28,7 +28,6 @@ public class BasePage {
         wait = new WebDriverWait(this.driver, 15);
         actions = new Actions(this.driver);
         log = Logger.getLogger(this.getClass().getName() + " logs ");
-        log = Logger.getLogger(this.getClass().getName() + " logs ");
     }
 
     public String getDriverInstanceName() {
