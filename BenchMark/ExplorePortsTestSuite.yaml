@@ -1,0 +1,6 @@
+name: SingleSuite
+parameters: {isLoginRequired: false}
+tests:
+  - name: Exploring Ports
+    classes:
+      - tests.explore.PortsTest
