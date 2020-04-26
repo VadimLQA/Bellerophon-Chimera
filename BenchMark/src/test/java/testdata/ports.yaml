@@ -1,0 +1,6 @@
+- ports:
+  nameOfThePort: Honolulu
+  labelOfThePort: Port Of Departure
+- ports:
+  nameOfThePort: Miami
+  labelOfThePort: Port Of Departure
