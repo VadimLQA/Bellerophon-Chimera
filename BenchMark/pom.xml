@@ -35,7 +35,7 @@
                         <configuration>
                             <!--should reflect generated name.xml file of the project -->
                             <suiteXmlFiles>
-                                <file>ExplorePortsTestSuite.xml</file>
+                                <file>test_resources/ExplorePortsTestSuite.xml</file>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -43,9 +43,9 @@
             </build>
         </profile>
     </profiles>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
     </properties>
     <dependencies>
         <dependency>
@@ -53,6 +53,7 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
@@ -72,8 +73,8 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.11</version>
-            <scope>compile</scope>
+            <version>7.1.0</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -123,5 +124,4 @@
             <version>8.0.19</version>
         </dependency>
     </dependencies>
-
 </project>
