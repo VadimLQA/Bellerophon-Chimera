@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite">
+<suite name="SmokeSuite" thread-count="5">
     <listeners>
         <listener class-name="utils.Listeners"/>
         <!-- <listener class-name="utility.ExtentReporterNG" />-->
     </listeners>
 
     <parameter name="isLoginRequired" value="false"/>
-    <test name="Exploring Ports">
+    <test name="Exploring Ports" parallel="methods">
         <classes>
             <class name="tests.explore.PortsTest"/>
+            <class name="tests.explore.ShoreExcursionTest"/>
         </classes>
     </test>
 </suite>
