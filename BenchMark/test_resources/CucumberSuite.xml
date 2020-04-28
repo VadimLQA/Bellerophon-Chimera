@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeSuite" thread-count="5">
+    <listeners>
+       <!-- <listener class-name="utils.Listeners"/>-->
+        <!-- <listener class-name="utility.ExtentReporterNG" />-->
+    </listeners>
+
+    <test name="Exploring Cucumber" parallel="methods">
+        <classes>
+            <class name="BDDTest"/>
+        </classes>
+    </test>
+</suite>
