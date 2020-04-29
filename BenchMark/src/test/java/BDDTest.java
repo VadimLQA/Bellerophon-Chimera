@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
  * @author vloparevich
  **/
 
-@CucumberOptions(features = {"features/ShoreExcursionImpl.feature"}, strict = true)
+@CucumberOptions(features = {"src/test/features/ShoreExcursionImpl.feature"}, strict = true)
 public class BDDTest extends AbstractTestNGCucumberTests {
     //  public static WebDriver driver;
     /*@BeforeClass
