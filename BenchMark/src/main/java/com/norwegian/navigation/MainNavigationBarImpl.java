@@ -1,6 +1,8 @@
 package com.norwegian.navigation;
 
 import com.norwegian.base.CommonImpl;
+import com.norwegian.explore.PortsImpl;
+import com.norwegian.explore.ShoreExcursionImpl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -38,17 +40,18 @@ public class MainNavigationBarImpl extends CommonImpl {
         }
     }
 
-    public void getSubBarOption(SubTab entity){
+    public <T> T getSubBarOption(SubTab entity) {
         switch (entity) {
             case PORTS:
                 clickElement(By.xpath(String.format(SUB_MENU_ENTITY, "Ports")));
-                break;
+                return (T) new PortsImpl(driver);
             case NORWEGIANS_PRIVATE_ISLAND:
                 clickElement(By.xpath(String.format(SUB_MENU_ENTITY, "Norwegian's Private Island")));
-                break;
+                return (T) this;
             case SHORE_EXCURSIONS:
                 clickElement(By.xpath(String.format(SUB_MENU_ENTITY, "Shore Excursions")));
-                break;
+                return (T) new ShoreExcursionImpl(driver);
+            default: return (T) this;
         }
     }
 }
