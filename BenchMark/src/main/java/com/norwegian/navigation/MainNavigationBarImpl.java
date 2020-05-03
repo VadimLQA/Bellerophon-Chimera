@@ -40,7 +40,7 @@ public class MainNavigationBarImpl extends CommonImpl {
         }
     }
 
-    public <T> T getSubBarOption(SubTab entity) {
+    public <T> T getPageFromSubBarOption(SubTab entity) {
         switch (entity) {
             case PORTS:
                 clickElement(By.xpath(String.format(SUB_MENU_ENTITY, "Ports")));
