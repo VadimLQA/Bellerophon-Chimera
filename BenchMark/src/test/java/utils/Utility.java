@@ -9,10 +9,10 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.annotations.DataProvider;
+import org.yaml.snakeyaml.Yaml;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.sql.*;
@@ -156,4 +156,47 @@ public class Utility extends BaseTest {
         }
         return responsecode;
     }
+
+
+    private static final String YAML_DATA =
+            "nameOfThePort: Honolulu\n" +
+                    "labelOfThePort: Port Of Departure";
+
+    private static final String YAML_FILE = "src/test/java/testdata/ports.yaml";
+
+
+    @DataProvider(name = "yaml-data")
+    private Object[][] parseYaml() {
+        Yaml yaml = new Yaml();
+        Map<String, String> map = new HashMap();
+        map = yaml.load(YAML_DATA);
+        return new Object[][]{map.values().toArray()};
+    }
+
+    @DataProvider(name = "yaml-parser")
+    private Object[][] parseYAMLFile() throws FileNotFoundException {
+        Yaml yaml = new Yaml();
+        InputStream iStream = new FileInputStream(new File(YAML_FILE));
+        ArrayList<Map<String, String>> portsCollection = yaml.load(iStream);
+
+        String[][] ports2DArray = new String[portsCollection.size()][2];
+        int i = 0;
+        for (Map<String, String> portsMap : portsCollection) {
+            Collection<String> portsValuesCollection = portsMap.values();
+            for (Object portValue : portsValuesCollection) {
+                Map<String, String> portMap = (Map<String, String>) portValue;
+                for (Map.Entry<String, String> port : portMap.entrySet()) {
+                    if (port.getKey().equals("nameOfThePort")) {
+                        ports2DArray[i][0] = port.getValue();
+                    }
+                    if (port.getKey().equals("labelOfThePort")) {
+                        ports2DArray[i][1] = port.getValue();
+                    }
+                }
+            }
+            i++;
+        }
+        return ports2DArray;
+    }
+
 }
