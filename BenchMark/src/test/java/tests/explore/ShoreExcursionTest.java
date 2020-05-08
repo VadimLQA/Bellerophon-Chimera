@@ -10,6 +10,7 @@ import testdata.DataProviders;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+import static utils.Listeners.test;
 
 /**
  * @author vloparevich
@@ -33,6 +34,7 @@ public class ShoreExcursionTest extends UserSetUpTest {
                     "Verify that port of destination is displayed in the middle of the map " +
                     "AND verify the label of the Port of Destination")
     public void testDisplayingDeparturePort(String portName, String labelOfPortOfDep) {
+        test.info("testDisplayingDeparturePort started and logged from test class");
         portPage.searchPort(portName);
         assertTrue(portPage.isPortImageInTheMiddleOfTheMap(), "The port is not in the middle of the map");
         assertEquals(portPage.getLabelPortOfDeparture(), labelOfPortOfDep, "Labels did not match");

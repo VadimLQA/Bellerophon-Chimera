@@ -26,6 +26,7 @@ import java.util.*;
  */
 public class Utility extends BaseTest {
     static String cwd = System.getProperty("user.dir");
+    public static String screenshotPath;
 
     public static String timeStampLong() {
         DateFormat df = new SimpleDateFormat("MMMM/d/yyyy-HH.mm.ss.S");
@@ -43,8 +44,9 @@ public class Utility extends BaseTest {
     }
 
     public static void getScreenshot(String testName, String methodName) throws IOException {
+        screenshotPath = logPath(testName) + timeStampLong() + "_" + methodName + ".png";
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(src, new File(logPath(testName) + timeStampLong() + "-methodName-" + methodName + "-screenshot.png"));
+        FileUtils.copyFile(src, new File(screenshotPath));
     }
 
     public static Object[][] excelDataParser(String excelFileName) throws IOException {
