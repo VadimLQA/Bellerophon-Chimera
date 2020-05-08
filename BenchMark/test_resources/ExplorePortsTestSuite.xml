@@ -2,7 +2,6 @@
 <suite name="SmokeSuite">
     <listeners>
         <listener class-name="utils.Listeners"/>
-        <!-- <listener class-name="utility.ExtentReporterNG" />-->
     </listeners>
 
     <parameter name="isLoginRequired" value="false"/>
@@ -12,5 +11,4 @@
             <class name="tests.explore.ShoreExcursionTest"/>
         </classes>
     </test>
-
 </suite>

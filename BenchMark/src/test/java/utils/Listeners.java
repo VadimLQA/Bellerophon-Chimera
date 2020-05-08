@@ -3,6 +3,7 @@ package utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.apache.log4j.Logger;
@@ -53,7 +54,9 @@ public class Listeners implements ITestListener {
     }
 
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("\033[0;32m" + shortTestName(iTestResult) + " performed successfully!\033[0m");
+        System.out.println("\033[0;95m" + iTestResult.getName() + "\033[0;32m performed successfully!\033[0m");
+        test = extent.createTest(iTestResult.getName());
+        test.log(Status.PASS, "Passed TC: " + iTestResult.getName());
     }
 
     public void onTestFailure(ITestResult iTestResult) {
@@ -62,9 +65,18 @@ public class Listeners implements ITestListener {
             getScreenshot(shortTestName(iTestResult), iTestResult.getName());
             logger.error("Assertion Failed: " + shortTestName(iTestResult) + "." + iTestResult.getName());
         } catch (IOException e) {
-            System.out.println("Something went wrong. Screenshot has not been made on test Failure!");
+            System.out.println("Something went wrong. Screenshot has not been taken on test failure!");
             e.printStackTrace();
         }
+
+        String className2 = iTestResult.getInstanceName();
+        String[] classNameShort = className2.split("\\.");
+        String newOne = classNameShort[classNameShort.length - 1];
+
+        test = extent.createTest(iTestResult.getName());
+
+        test.log(Status.FAIL, "Failed test case: " + iTestResult.getName());
+        test.log(Status.FAIL, "Failed test case: " + iTestResult.getThrowable());
     }
 
     public void onTestSkipped(ITestResult iTestResult) {
@@ -76,7 +88,6 @@ public class Listeners implements ITestListener {
 
     }
 
-    @Override
     public void onFinish(ITestContext iTestContext) {
         extent.flush();
         logger.info("Test Suite is finished");
