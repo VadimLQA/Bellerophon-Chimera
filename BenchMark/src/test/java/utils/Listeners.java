@@ -47,10 +47,6 @@ public class Listeners implements ITestListener {
         extent.setSystemInfo("User", "Vadim");
 
         logger.info("Test Suite is launched log4j");
-
-        test = extent.createTest(iTestContext.getName());
-        test.info("Test Suite is launched extentreport");
-
     }
 
     @Override
@@ -75,7 +71,7 @@ public class Listeners implements ITestListener {
         try {
             getScreenshot(shortTestName, longTestName);
             logger.error("Assertion Failed: " + shortTestName + "." + longTestName);
-           /* test.addScreenCaptureFromPath(screenshotPath);*/
+            /* test.addScreenCaptureFromPath(screenshotPath);*/
 
             test.fail(iTestResult.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
         } catch (IOException e) {
