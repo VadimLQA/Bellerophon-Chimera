@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="API, Basic tests(failed)">
+    <classes>
+      <class name="com.employee.tests.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="baseTearDown"/>
+          <include name="testResponseBody"/>
+          <include name="baseSetUp"/>
+          <include name="afterClassTearDown"/>
+          <include name="beforeClassSetUp"/>
+        </methods>
+      </class> <!-- com.employee.tests.TC002_Get_Single_Employee_Record -->
+      <class name="com.employee.tests.TC005_DELETE_Single_Employee_Record">
+        <methods>
+          <include name="baseTearDown"/>
+          <include name="baseSetUp"/>
+          <include name="createEmployee"/>
+          <include name="testResponseBody"/>
+          <include name="testStatus"/>
+          <include name="afterClassTearDown"/>
+          <include name="testContentLength"/>
+        </methods>
+      </class> <!-- com.employee.tests.TC005_DELETE_Single_Employee_Record -->
+    </classes>
+  </test> <!-- API, Basic tests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

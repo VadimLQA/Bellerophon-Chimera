@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RegressionSuite" verbose="1">
+
+    <test name="API, Basic tests">
+        <classes>
+            <class name="com.employee.tests.TC001_Get_All_Employees"/>
+            <class name="com.employee.tests.TC002_Get_Single_Employee_Record"/>
+        </classes>
+    </test>
+</suite>
