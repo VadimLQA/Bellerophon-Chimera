@@ -1,6 +1,8 @@
 target/
 ProjectLogsShots/
+BenchMark/target/
 BenchMark/.idea/workspace.xml
 api/
 .idea/
 target/
+logs/
