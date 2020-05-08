@@ -25,7 +25,7 @@ public class Listeners implements ITestListener {
 
     private String shortTestName(ITestResult result) {
         String[] testName = result.getInstanceName().split("\\.");
-        String shortTestName = testName[testName.length - 2].toString() + "." + testName[testName.length - 1].toString();
+        String shortTestName = testName[testName.length - 2] + "." + testName[testName.length - 1].toString();
         return shortTestName;
     }
 
