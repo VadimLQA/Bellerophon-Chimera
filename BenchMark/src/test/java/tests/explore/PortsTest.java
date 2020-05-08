@@ -24,7 +24,7 @@ public class PortsTest extends UserSetUpTest {
     public void setUp() {
         navMenu = new MainNavigationBarImpl(driver);
         navMenu.getMainBarOption(MainNavigationBarImpl.Tab.EXPLORE);
-        portPage = navMenu.getSubBarOption(MainNavigationBarImpl.SubTab.PORTS);
+        portPage = navMenu.getPageFromSubBarOption(MainNavigationBarImpl.SubTab.PORTS);
     }
 
     @Test(dataProvider = "ports-name", dataProviderClass = DataProviders.class,

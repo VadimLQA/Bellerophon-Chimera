@@ -38,3 +38,262 @@
 2020-04-25 00:31:42 [FATAL] PortsImpl :: 29 -> Port's position is being verified
 2020-04-25 00:31:43 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
 2020-04-25 00:31:44 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-26 21:36:46 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:36:46 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:36:47 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-26 21:36:59 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:36:59 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:37:00 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-26 21:38:31 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:38:31 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:38:32 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-26 21:38:43 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:38:43 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:38:45 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-26 21:42:33 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:42:33 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:42:34 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-26 21:42:45 [INFO ] PortsTest :: 39 -> *** verify that image is in the middle of the map ***
+2020-04-26 21:42:45 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-26 21:42:47 [INFO ] PortsTest :: 41 -> *** verify label of port departure ***
+2020-04-27 00:15:49 [INFO ] PortsTest :: 68 -> *** verify that image is in the middle of the map ***
+2020-04-27 00:15:50 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 00:15:51 [INFO ] PortsTest :: 70 -> *** verify label of port departure ***
+2020-04-27 06:41:29 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:41:29 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:41:30 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 06:41:41 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:41:41 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:41:42 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 06:49:10 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:49:10 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:49:11 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 06:49:29 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:49:29 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:49:30 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 06:53:35 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:53:35 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:53:36 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 06:53:47 [INFO ] PortsTest :: 114 -> *** verify that image is in the middle of the map ***
+2020-04-27 06:53:47 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 06:53:49 [INFO ] PortsTest :: 116 -> *** verify label of port departure ***
+2020-04-27 18:58:46 [INFO ] PortsTest :: 49 -> *** verify that image is in the middle of the map ***
+2020-04-27 18:58:46 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 18:58:47 [INFO ] PortsTest :: 51 -> *** verify label of port departure ***
+2020-04-27 18:58:58 [INFO ] PortsTest :: 49 -> *** verify that image is in the middle of the map ***
+2020-04-27 18:58:59 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 18:59:00 [INFO ] PortsTest :: 51 -> *** verify label of port departure ***
+2020-04-27 19:31:29 [INFO ] PortsTest :: 111 -> *** verify that image is in the middle of the map ***
+2020-04-27 19:31:29 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 19:31:30 [INFO ] PortsTest :: 113 -> *** verify label of port departure ***
+2020-04-27 19:31:42 [INFO ] PortsTest :: 111 -> *** verify that image is in the middle of the map ***
+2020-04-27 19:31:42 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 19:31:43 [INFO ] PortsTest :: 113 -> *** verify label of port departure ***
+2020-04-27 22:17:21 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-04-27 22:17:21 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-04-27 22:21:07 [INFO ] PortsTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:21:07 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:21:08 [INFO ] PortsTest :: 52 -> *** verify label of port departure ***
+2020-04-27 22:26:04 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-04-27 22:26:04 [ERROR] PortsTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-04-27 22:36:53 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-27 22:36:53 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-04-27 22:37:09 [INFO ] ShoreExcursionTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:37:09 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:37:10 [INFO ] ShoreExcursionTest :: 52 -> *** verify label of port departure ***
+2020-04-27 22:37:11 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-04-27 22:38:10 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-04-27 22:38:10 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-04-27 22:38:28 [INFO ] ShoreExcursionTest :: 109 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:38:28 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:38:29 [INFO ] ShoreExcursionTest :: 111 -> *** verify label of port departure ***
+2020-04-27 22:38:30 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-04-27 22:53:00 [INFO ] PortsTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:53:00 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:53:02 [INFO ] PortsTest :: 52 -> *** verify label of port departure ***
+2020-04-27 22:53:14 [INFO ] PortsTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:53:14 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:53:16 [INFO ] PortsTest :: 52 -> *** verify label of port departure ***
+2020-04-27 22:53:30 [INFO ] PortsTest :: 109 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:53:30 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:53:32 [INFO ] PortsTest :: 111 -> *** verify label of port departure ***
+2020-04-27 22:53:50 [INFO ] PortsTest :: 109 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:53:50 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:53:52 [INFO ] PortsTest :: 111 -> *** verify label of port departure ***
+2020-04-27 22:54:07 [INFO ] PortsTest :: 100 -> *** verify that image is in the middle of the map ***
+2020-04-27 22:54:07 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:54:09 [INFO ] PortsTest :: 102 -> *** verify label of port departure ***
+2020-04-27 22:54:50 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-27 22:55:02 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:58:36 [INFO ] PortsTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-28 18:58:36 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:58:37 [INFO ] PortsTest :: 52 -> *** verify label of port departure ***
+2020-04-28 18:58:49 [INFO ] PortsTest :: 50 -> *** verify that image is in the middle of the map ***
+2020-04-28 18:58:49 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:58:50 [INFO ] PortsTest :: 52 -> *** verify label of port departure ***
+2020-04-28 18:59:01 [INFO ] PortsTest :: 109 -> *** verify that image is in the middle of the map ***
+2020-04-28 18:59:01 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:59:02 [INFO ] PortsTest :: 111 -> *** verify label of port departure ***
+2020-04-28 18:59:14 [INFO ] PortsTest :: 109 -> *** verify that image is in the middle of the map ***
+2020-04-28 18:59:14 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:59:15 [INFO ] PortsTest :: 111 -> *** verify label of port departure ***
+2020-04-28 18:59:27 [INFO ] PortsTest :: 100 -> *** verify that image is in the middle of the map ***
+2020-04-28 18:59:27 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 18:59:29 [INFO ] PortsTest :: 102 -> *** verify label of port departure ***
+2020-04-28 19:00:01 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-04-28 19:00:14 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:45:54 [INFO ] PortsTest :: 37 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:45:54 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:45:55 [INFO ] PortsTest :: 39 -> *** verify label of port departure ***
+2020-05-03 17:46:06 [INFO ] PortsTest :: 37 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:46:06 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:46:07 [INFO ] PortsTest :: 39 -> *** verify label of port departure ***
+2020-05-03 17:47:41 [INFO ] PortsTest :: 37 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:47:41 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:47:42 [INFO ] PortsTest :: 39 -> *** verify label of port departure ***
+2020-05-03 17:47:53 [INFO ] PortsTest :: 37 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:47:53 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:47:54 [INFO ] PortsTest :: 39 -> *** verify label of port departure ***
+2020-05-03 17:48:05 [INFO ] PortsTest :: 56 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:48:05 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:48:06 [INFO ] PortsTest :: 58 -> *** verify label of port departure ***
+2020-05-03 17:48:17 [INFO ] PortsTest :: 56 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:48:17 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:48:18 [INFO ] PortsTest :: 58 -> *** verify label of port departure ***
+2020-05-03 17:48:29 [INFO ] PortsTest :: 47 -> *** verify that image is in the middle of the map ***
+2020-05-03 17:48:29 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-03 17:48:30 [INFO ] PortsTest :: 49 -> *** verify label of port departure ***
+2020-05-08 17:04:25 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:04:25 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 17:05:12 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:05:12 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:05:42 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:06:24 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:06:24 [ERROR] ShoreExcursionTest :: 35 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:35:38 [INFO ] Listeners :: 46 -> Test Suite is launched.
+2020-05-08 17:36:58 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 17:36:58 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:37:44 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:37:44 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:38:19 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:38:19 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:38:31 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:38:32 [INFO ] Listeners :: 81 -> Test Suite is finished.
+2020-05-08 17:41:02 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 17:42:20 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:42:21 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 17:42:38 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:42:45 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:43:22 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:43:22 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:43:36 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 17:43:38 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:43:38 [INFO ] Listeners :: 81 -> Test Suite is finished
+2020-05-08 17:44:02 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 17:45:39 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 17:45:46 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:46:15 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:46:15 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:48:16 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 17:48:16 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 17:48:17 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 17:48:28 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 17:48:28 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 17:48:29 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 17:49:06 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 17:50:44 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 17:51:09 [INFO ] ShoreExcursionTest :: 46 -> *** verify that image is in the middle of the map ***
+2020-05-08 17:51:09 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 17:51:10 [INFO ] ShoreExcursionTest :: 48 -> *** verify label of port departure ***
+2020-05-08 17:51:11 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 17:52:18 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:52:40 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 17:53:17 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:53:24 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 17:54:12 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 17:56:23 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:01:20 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:02:48 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:04:01 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:07:28 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:08:58 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 18:09:29 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 18:10:57 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:10:57 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:10:58 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:11:10 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:11:10 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:11:11 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:11:22 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:11:22 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:11:23 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:11:35 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:11:35 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:11:36 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:11:47 [INFO ] PortsTest :: 46 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:11:47 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:11:48 [INFO ] PortsTest :: 48 -> *** verify label of port departure ***
+2020-05-08 18:12:15 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:13:53 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:15:13 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:15:14 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:16:41 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:17:20 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:17:20 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:17:22 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:17:22 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:17:34 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:17:34 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:17:35 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:17:35 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:17:47 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:17:47 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:17:48 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:17:48 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 18:18:00 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:18:00 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:18:01 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:18:01 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 18:18:14 [INFO ] PortsTest :: 46 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:18:14 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:18:15 [INFO ] PortsTest :: 48 -> *** verify label of port departure ***
+2020-05-08 18:18:15 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 18:18:50 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:18:52 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:19:03 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:19:05 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:19:06 [INFO ] Listeners :: 82 -> Test Suite is finished
+2020-05-08 18:19:31 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:19:31 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:20:52 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:20:52 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:24:01 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:24:20 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:24:20 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:24:22 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:24:22 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:24:35 [INFO ] PortsTest :: 36 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:24:35 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:24:36 [INFO ] PortsTest :: 38 -> *** verify label of port departure ***
+2020-05-08 18:24:37 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePort
+2020-05-08 18:24:48 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:24:48 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:24:50 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:24:50 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 18:25:02 [INFO ] PortsTest :: 55 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:25:02 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:25:03 [INFO ] PortsTest :: 57 -> *** verify label of port departure ***
+2020-05-08 18:25:04 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortParserYAML
+2020-05-08 18:25:15 [INFO ] PortsTest :: 46 -> *** verify that image is in the middle of the map ***
+2020-05-08 18:25:15 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:25:16 [INFO ] PortsTest :: 48 -> *** verify label of port departure ***
+2020-05-08 18:25:17 [ERROR] Listeners :: 63 -> Assertion Failed: explore.PortsTest.testDisplayingDeparturePortYAML
+2020-05-08 18:25:54 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:25:56 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:26:07 [INFO ] PortsImpl logs  :: 29 -> Port's position is being verified
+2020-05-08 18:26:09 [ERROR] Listeners :: 63 -> Assertion Failed: explore.ShoreExcursionTest.testDisplayingDeparturePort
+2020-05-08 18:26:10 [INFO ] Listeners :: 82 -> Test Suite is finished
+2020-05-08 18:28:25 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:29:05 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:30:21 [INFO ] Listeners :: 46 -> Test Suite is launched
+2020-05-08 18:30:59 [INFO ] Listeners :: 46 -> Test Suite is launched

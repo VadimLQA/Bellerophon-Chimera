@@ -1,22 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac234dfb-2e15-4518-a780-65bc5b48b7ad" name="Default Changelist" comment="">
+    <list default="true" id="ac234dfb-2e15-4518-a780-65bc5b48b7ad" name="Default Changelist" comment="add yaml as test suite of xml">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/norwegian.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/norwegian.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/norwegian/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/norwegian/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/norwegian/explore/PortsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/norwegian/explore/PortsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basetest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basetest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/explore/PortsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/explore/PortsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/explore/ShoreExcursionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/explore/ShoreExcursionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/explore/PortsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/explore/PortsImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/basetest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basetest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$SubTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$SubTab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$Tab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl$Tab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/norwegian/navigation/MainNavigationBarImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-24T22-11-07_716.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-24T22-14-43_438.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Exploring Ports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Exploring Ports.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.explore.PortsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.explore.PortsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/Exploring Ports.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basetest/UserSetUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basetest/UserSetUpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/explore/PortsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/explore/PortsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/explore/ShoreExcursionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/explore/ShoreExcursionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/ExplorePortsTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test_resources/ExplorePortsTestSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
@@ -48,32 +91,60 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/testdata" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigCucumber" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VADIM\IdeaProjects\Bellerophon-Chimera\BenchMark\test_resources" />
+      <recent name="C:\Users\VADIM\IdeaProjects\Bellerophon-Chimera\BenchMark" />
+      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\test\java\testdata" />
+      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\main\resources" />
       <recent name="C:\Users\VADIM\IdeaProjects\BenchMark" />
-      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\test_suites" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.norwegian.secondary" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\test\java\testdata" />
-      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VADIM\IdeaProjects\Bellerophon-Chimera\BenchMark\src\test" />
+      <recent name="C:\Users\VADIM\IdeaProjects\Bellerophon-Chimera\BenchMark\test_resources" />
       <recent name="C:\Users\VADIM\IdeaProjects\BenchMark" />
-      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\test\java\utils" />
-      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\src\test\java\tests\explore" />
+      <recent name="C:\Users\VADIM\IdeaProjects\BenchMark\test_suites" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/VADIM/IdeaProjects/BenchMark/ExplorePortsTestSuite.xml">
-    <configuration name="C:/Users/VADIM/IdeaProjects/BenchMark/ExplorePortsTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/VADIM/IdeaProjects/Bellerophon-Chimera/BenchMark/test_resources/ExplorePortsTestSuite.xml">
+    <configuration name="BDDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BenchMark" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExplorePortsTestSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BDDTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BDDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BenchMark" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BDDTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/VADIM/IdeaProjects/Bellerophon-Chimera/BenchMark/test_resources/ExplorePortsTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BenchMark" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test_resources/ExplorePortsTestSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -81,7 +152,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoreExcursionTest.testDisplayingDeparturePort" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/VADIM/IdeaProjects/Bellerophon-Chimera/BenchMark/test_resources/ExplorePortsTestSuite.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BenchMark" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test_resources/ExplorePortsTestSuite.yaml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BenchMark" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +171,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.explore" />
-      <option name="MAIN_CLASS_NAME" value="tests.explore.ShoreExcursionTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.explore.PortsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortsTest.testDisplayingDeparturePort" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BenchMark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.explore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.explore" />
+      <option name="MAIN_CLASS_NAME" value="tests.explore.PortsTest" />
       <option name="METHOD_NAME" value="testDisplayingDeparturePort" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -101,8 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/VADIM/IdeaProjects/BenchMark/ExplorePortsTestSuite.xml" />
-        <item itemvalue="TestNG.ShoreExcursionTest.testDisplayingDeparturePort" />
+        <item itemvalue="TestNG.C:/Users/VADIM/IdeaProjects/Bellerophon-Chimera/BenchMark/test_resources/ExplorePortsTestSuite.xml" />
+        <item itemvalue="TestNG.PortsTest" />
+        <item itemvalue="TestNG.PortsTest.testDisplayingDeparturePort" />
+        <item itemvalue="TestNG.C:/Users/VADIM/IdeaProjects/Bellerophon-Chimera/BenchMark/test_resources/ExplorePortsTestSuite.yaml" />
+        <item itemvalue="TestNG.BDDTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,46 +225,272 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ac234dfb-2e15-4518-a780-65bc5b48b7ad" name="Default Changelist" comment="" />
-      <changelist id="" name="Current" comment="" />
       <created>1587749716392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587749716392</updated>
     </task>
+    <task id="LOCAL-00001" summary="add yaml as test data">
+      <created>1587933874250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587933874250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add yaml as test suite of xml">
+      <created>1587933921407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587933921407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add yaml as test suite of xml">
+      <created>1588018008086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588018008086</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add yaml as test suite of xml">
+      <created>1588018030772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588018030772</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comment unnecessary parameter">
+      <created>1588018064647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588018064647</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add path to testng.xml since that added to testresource">
+      <created>1588018109209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588018109209</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add feature file for cucumber test">
+      <created>1588105817711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105817711</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add bdd test class">
+      <created>1588105843480</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105843480</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add bdd step def implementation">
+      <created>1588105871941</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105871942</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add test suite for bdd test">
+      <created>1588105910744</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105910744</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add dependencies for cucumber">
+      <created>1588105952455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105952455</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update test suite">
+      <created>1588105991406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588105991406</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change namespace for feature folder">
+      <created>1588109796063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588109796065</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add dataprovider path to methods">
+      <created>1588517783910</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588517783910</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor method to get generic type as return of page object">
+      <created>1588517833585</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588517833585</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add YAML parsers as dataproviders">
+      <created>1588517944039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588517944039</updated>
+    </task>
+    <task id="LOCAL-00017" summary="rename method according to the return type">
+      <created>1588518278619</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588518278619</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add yaml as test data" />
+    <MESSAGE value="add yaml as test suite of xml" />
+    <MESSAGE value="comment unnecessary parameter" />
+    <MESSAGE value="add path to testng.xml since that added to testresource" />
+    <MESSAGE value="add feature file for cucumber test" />
+    <MESSAGE value="add bdd test class" />
+    <MESSAGE value="add bdd step def implementation" />
+    <MESSAGE value="add test suite for bdd test" />
+    <MESSAGE value="add dependencies for cucumber" />
+    <MESSAGE value="update test suite" />
+    <MESSAGE value="change namespace for feature folder" />
+    <MESSAGE value="add dataprovider path to methods" />
+    <MESSAGE value="refactor method to get generic type as return of page object" />
+    <MESSAGE value="add YAML parsers as dataproviders" />
+    <MESSAGE value="rename method according to the return type" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename method according to the return type" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1251" y="173" key="#BDDTest" timestamp="1588088921951">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1251" y="173" key="#BDDTest/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588088921951" />
     <state x="-994" y="184" key="#Project_Structure" timestamp="1587749854357">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-994" y="184" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587749854357" />
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1587764023202">
+    <state x="-1828" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588517208221">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587764023202" />
-    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1587764023202">
+    <state x="-1828" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588517208221" />
+    <state x="-1264" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588086027634">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587764023202" />
-    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1587764023202">
+    <state x="-1264" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588086027634" />
+    <state x="-1164" y="385" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588124637734">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587764023202" />
-    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1587764023202">
+    <state x="-1164" y="385" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588124637734" />
+    <state x="-1348" y="119" key="CommitChangelistDialog2" timestamp="1588518277470">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587764023202" />
-    <state x="-1244" y="236" key="RollbackChangesDialog" timestamp="1587763736055">
+    <state x="-1348" y="119" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588518277470" />
+    <state width="488" height="466" key="DebuggerActiveHint" timestamp="1588949505095">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1244" y="236" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587763736055" />
-    <state x="-1106" y="100" key="SettingsEditor" timestamp="1587752095550">
+    <state width="488" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588949505095" />
+    <state x="-1180" y="280" key="FileChooserDialogImpl" timestamp="1588945800466">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1106" y="100" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587752095550" />
+    <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588945800466" />
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1588951844735">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588951844735" />
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588087489078" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1588951844735">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588951844735" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588087489078" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1588951844735">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588951844735" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588087489078" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1588951844735">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588951844735" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588087489078" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588950603159">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588950603159" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588950603159">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588950603159" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588950603159">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588950603159" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588950603159">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588950603159" />
+    <state x="-1244" y="236" key="RollbackChangesDialog" timestamp="1588518204650">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1244" y="236" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588518204650" />
+    <state x="-1313" y="101" width="1040" height="846" key="SettingsEditor" timestamp="1588947026592">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1313" y="101" width="1040" height="846" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588947026592" />
     <state x="-1130" y="395" key="VCS.EditChangelistDialog" timestamp="1587764041535">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1130" y="395" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587764041535" />
+    <state x="-1578" y="146" key="new project wizard" timestamp="1588106072596">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1578" y="146" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588106072596" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/explore/PortsTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/explore/PortsTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/explore/PortsTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/norwegian/base/BasePage.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="portMap.toString()" language="JAVA" />
+        <watch expression="port" language="JAVA" />
+        <watch expression="portsMap.values()" language="JAVA" />
+        <watch expression="portsMap.values()" language="JAVA" />
+        <watch expression="portsValuesCollection" language="JAVA" />
+        <watch expression="portsCollection" language="JAVA" />
+        <watch expression="portsValuesCollection" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

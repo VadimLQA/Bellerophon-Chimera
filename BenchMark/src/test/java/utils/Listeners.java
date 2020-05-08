@@ -1,23 +1,51 @@
 package utils;
 
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import java.io.IOException;
 
-import static basetest.BaseTest.logger;
 import static utils.Utility.getScreenshot;
 
 /**
  * @author vloparevich
  */
 public class Listeners implements ITestListener {
+    public ExtentHtmlReporter htmlReporter;
+    public ExtentReports extent;
+    public ExtentTest test; // ??
+    private Logger logger;
 
     private String shortTestName(ITestResult result) {
         String[] testName = result.getInstanceName().split("\\.");
         String shortTestName = testName[testName.length - 2].toString() + "." + testName[testName.length - 1].toString();
         return shortTestName;
+    }
+
+    public void onStart(ITestContext iTestContext) {
+        logger = Logger.getLogger(this.getClass().getName());
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/reports/MyExtentReport.html");
+        htmlReporter.config().setDocumentTitle("Automation Report");
+        htmlReporter.config().setReportName("Rest API Testing Report");
+        htmlReporter.config().setTheme(Theme.DARK);
+
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+        extent.setSystemInfo("Project Name", "Norwegian");
+        extent.setSystemInfo("Host name", "Remote Server");
+        extent.setSystemInfo("Environment", "Production");
+        extent.setSystemInfo("user", "Vadim");
+
+        logger.info("Test Suite is launched");
+        System.out.println("Test Started");
+
     }
 
     public void onTestStart(ITestResult iTestResult) {
@@ -48,11 +76,10 @@ public class Listeners implements ITestListener {
 
     }
 
-    public void onStart(ITestContext iTestContext) {
-        System.out.println("Test launched");
-    }
-
+    @Override
     public void onFinish(ITestContext iTestContext) {
+        extent.flush();
+        logger.info("Test Suite is finished");
         System.out.println("Test Finished");
     }
 }

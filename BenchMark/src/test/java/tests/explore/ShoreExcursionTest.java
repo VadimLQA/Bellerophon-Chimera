@@ -24,7 +24,7 @@ public class ShoreExcursionTest extends UserSetUpTest {
     public void setUp() {
         navMenu = new MainNavigationBarImpl(driver);
         navMenu.getMainBarOption(MainNavigationBarImpl.Tab.EXPLORE);
-        navMenu.getSubBarOption(MainNavigationBarImpl.SubTab.PORTS);
+        navMenu.getPageFromSubBarOption(MainNavigationBarImpl.SubTab.PORTS);
         portPage = new PortsImpl(driver);
     }
 
