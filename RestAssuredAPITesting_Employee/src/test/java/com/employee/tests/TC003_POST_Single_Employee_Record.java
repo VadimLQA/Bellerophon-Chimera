@@ -65,6 +65,7 @@ public class TC003_POST_Single_Employee_Record extends BaseTest {
     @Test
     public void testStatusCode() {
         logger.info("********** testStatusCode **********");
+
         int statusCode = response.getStatusCode();
         System.out.println("Status code: " + statusCode);
         assertEquals(statusCode == 200, true);

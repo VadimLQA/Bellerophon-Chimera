@@ -10,9 +10,9 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class Listeners implements ITestListener {
-    public ExtentHtmlReporter htmlReporter;
-    public ExtentReports extent;
-    public ExtentTest test;
+    public static ExtentHtmlReporter htmlReporter;
+    public static ExtentReports extent;
+    public static ExtentTest test;
 
     public void onStart(ITestContext iTestContext) {
         htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/reports/MyExtentReport.html");
@@ -26,7 +26,6 @@ public class Listeners implements ITestListener {
         extent.setSystemInfo("Host name", "localhost");
         extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("user", "Vadim");
-
     }
 
     public void onTestSuccess(ITestResult iTestResult) {
@@ -36,19 +35,18 @@ public class Listeners implements ITestListener {
     }
 
     public void onTestStart(ITestResult iTestResult) {
-
     }
 
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("Test Failed. Something should be verified! Screenshot is taken.");
         String className2 = iTestResult.getInstanceName();
         String[] classNameShort = className2.split("\\.");
-        String newOne = classNameShort[classNameShort.length - 1];
 
         test = extent.createTest(iTestResult.getName());
 
         test.log(Status.FAIL, "Failed test case: " + iTestResult.getName());
-        test.log(Status.FAIL, "Failed test case: " + iTestResult.getThrowable());
+        test.fail(iTestResult.getThrowable());
+
     }
 
     public void onTestSkipped(ITestResult iTestResult) {
