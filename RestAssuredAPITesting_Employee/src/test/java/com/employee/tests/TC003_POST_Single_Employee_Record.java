@@ -27,8 +27,8 @@ public class TC003_POST_Single_Employee_Record extends BaseTest {
         requestParams.put("salary", salary);
         requestParams.put("age", empAge);
 
-        httpRequest.body(requestParams.toJSONString());
         httpRequest.header("Content-Type", "application/json");
+        httpRequest.body(requestParams.toJSONString());
         response = httpRequest.request(Method.POST, "/create");
         asyncWait(response);
 
